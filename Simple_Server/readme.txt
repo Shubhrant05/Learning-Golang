@@ -18,3 +18,15 @@ http.HadleFunc().
     2-> r *httpRequest [ Request ]
 
 5. To get FormValues we can use r.FormValue()
+
+TO RUN THE CODE PLEASE CLONE THE FILE AND COMPLETE THE GOLANG SETUP. AFTER THAT OPEN TERMINAL AND ENTER
+-> go run main.go
+
+Following are the routes
+-localhost:5000
+-localhost:5000/hello
+-localhost:5000/form.html
+
+Enter them manually on-by-one in your browser to check upon all of them.
+
+CONGRATULATIONS ON DOING THE FIRST GOLANG PROJECT

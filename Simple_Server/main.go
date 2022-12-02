@@ -43,7 +43,7 @@ func main() {
 	srv := &http.Server{
 		Addr: "localhost:5000",
 	}
-	fmt.Printf("Starting server at port 8080")
+	fmt.Printf("Starting server at port 5000")
 
 	if err := srv.ListenAndServe(); err != nil {
 		log.Fatal(err)
